@@ -1,6 +1,7 @@
 h1 {
     color: #BA7BF0;
-    font-family:cursive 
+    font-family:cursive;
+    text-align: center; 
   }
 
   a {
@@ -13,6 +14,7 @@ h1 {
 
 p {
   font-family: Arial, Helvetica, sans-serif;
+  font-size:x-large;
 }
 
 blockquote {
@@ -44,6 +46,32 @@ h2 {
 }
 
 body{
-  background-image:url(images/back.jpg)
-  margin: 0; 
+  background-image:url(images/pencils.jpg);
+  background-size: cover;
+  padding-bottom: 500px;
+
+}
+
+nav{ 
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  list-style: none;
+  text-align: left;
+  margin: 5px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+footer{
+  background-color: #eb8f83;
+  border:#BA7BF0;
+  border-style: dotted;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  position:sticky;
+  display: inline-block;
 }
