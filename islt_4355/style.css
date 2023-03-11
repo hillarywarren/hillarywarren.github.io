@@ -97,7 +97,7 @@ label {
   nav {
     text-align: center;
     width: 100%;
-    display: none;
+    display:block;
   }
   nav a {
     display: block;
