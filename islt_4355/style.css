@@ -22,7 +22,7 @@ blockquote {
   font-family: cursive;
 }
 
-div li {
+h3 ul li {
   background-color: antiquewhite;
   border:#eb8f83;
   border-style: dotted;
@@ -74,4 +74,36 @@ footer{
   text-decoration: none;
   position:sticky;
   display: inline-block;
+}
+
+label { 
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  float: right;
+}
+
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width:640px)
+{
+  label{
+    display:block;
+    cursor: pointer;
+  }
+  nav {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  nav a {
+    display: block;
+    margin: 0;
+  }
+  #toggle:checked + nav {
+    display:block;
+}
 }
