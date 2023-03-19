@@ -90,20 +90,18 @@ label {
 
 @media only screen and (max-width:640px)
 {
+  #toggle:checked + nav {
+    display:block;
+}
+  nav {
+    display:none;
+  }
   label{
     display:block;
     cursor: pointer;
   }
-  nav {
-    text-align: center;
-    width: 100%;
-    display:block;
-  }
-  nav a {
-    display: block;
-    margin: 0;
-  }
-  #toggle:checked + nav {
-    display:block;
-}
+
+
+
+
 }
