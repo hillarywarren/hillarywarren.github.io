@@ -1,0 +1,227 @@
+h1 {
+    color: #BA7BF0;
+    font-family:cursive;
+    text-align: center; 
+  }
+
+  a {
+    background-color: #eb8f83;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:x-large;
+}
+
+blockquote {
+  font-size:x-large;
+  font-family: cursive;
+}
+
+h3 ul li {
+  background-color: antiquewhite;
+  border:#eb8f83;
+  border-style: dotted;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: antiquewhite;
+  border:#eb8f83;
+  border-style: dotted;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  position: relative;
+  font-display:initial;
+  display: inline-block;
+}
+
+body{
+  background-image:url(images/pencils.jpg);
+  background-size: cover;
+  padding-bottom: 500px;
+
+}
+
+nav{ 
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  list-style: none;
+  text-align: left;
+  margin: 5px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+footer{
+  background-color: #eb8f83;
+  border:#BA7BF0;
+  border-style: dotted;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  position:sticky;
+  display: inline-block;
+}
+
+label { 
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  float: right;
+}
+
+#toggle {
+  display: none;
+}
+
+
+
+
+
+@media only screen and (max-width:640px) {
+h2 {
+  vertical-align: center;
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  font-family: "Raleway";
+  box-sizing: border-box;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00BAF0;
+  background: linear-gradient(to left, #f46b45, #eea849);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFF;
+  height: 50px;
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 700px) {
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #222;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
+}
