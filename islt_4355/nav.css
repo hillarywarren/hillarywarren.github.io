@@ -67,28 +67,3 @@ nav{
     background-color:#E6D045;
   }
   
-  @media screen and (min-width: 640px){
-  
-    nav {
-      box-sizing: border-box;
-      display: block;
-      width: 100%;
-      border-top: 1px solid #333;
-    }
-    label{
-      display:block;
-      cursor: pointer;
-    }
-  
-    #toggle:checked + nav {
-      display:block;
-  }  
-  nav ul {
-    display: flex;
-  }
-  
-  nav li {
-    flex: 1 1 0;
-  }
-  
-}

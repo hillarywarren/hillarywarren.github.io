@@ -46,7 +46,7 @@ h2 {
 }
 
 body{
-  background-image:url(images/pencils.jpg);
+  background-image:url(pencils.jpg);
   background-size: cover;
   padding-bottom: 500px;
 
@@ -88,20 +88,4 @@ label {
   display: none;
 }
 
-@media only screen and (max-width:640px)
-{
-  #toggle:checked + nav {
-    display:block;
-}
-  nav {
-    display:none;
-  }
-  label{
-    display:block;
-    cursor: pointer;
-  }
 
-
-
-
-}
