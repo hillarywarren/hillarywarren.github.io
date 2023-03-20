@@ -108,6 +108,9 @@ label {
 p {
   font-size: 1.25rem;
 }
+img {
+  size: 50px;
+}
   
 } 
 
@@ -123,6 +126,7 @@ nav {
 h1 {
   font-size: 1.25rem;
 }
+
 }
 
 
@@ -143,6 +147,9 @@ h1 {
   }
   #toggle:checked + .menu {
       display:block;
+  }
+  img {
+    flex-shrink: 25px;
   }
 
 }
