@@ -1,6 +1,11 @@
+@font-face{
+  font-family: lobster;
+  src: URL("Lobster-Regular.ttf");
+}
+
 h1 {
     color: #BA7BF0;
-    font-family:cursive;
+    font-family: lobster;
     text-align: center; 
   }
 
@@ -121,6 +126,8 @@ img {
   position:relative;
   align-content: center;
 }
+
+
 
 
 @media only screen and (min-width:400px) {
