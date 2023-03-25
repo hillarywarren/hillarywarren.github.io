@@ -117,16 +117,7 @@ label {
 #toggle {
   display: none;
 }
-img {
-  background-color: antiquewhite;
-  border:#eb8f83;
-  border-style: dotted;
-  margin: 10px;
-  padding: 10px 10px 10px 10px;
-  text-decoration: none;
-  position:relative;
-  align-content: center;
-}
+
 
 
 
