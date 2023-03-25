@@ -82,7 +82,7 @@ footer{
   background-color: #eb8f83;
   border:#BA7BF0;
   border-style: dotted;
-  text-align: center;
+  text-align: left;
   padding: 2px 2px 2px 2px;
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
@@ -116,6 +116,22 @@ label {
 }
 #toggle {
   display: none;
+}
+.pic{
+  width:25px;
+  height: 25px;
+}
+.picbig{
+  position:absolute;
+  width: 0px;
+  -webkit-transition:width 0.3s linear 0s;
+  transition: width 0.3s linear 0s; 
+  z-index: 50;
+}
+.pic:hover + .picbig {
+  width:100px;
+  height: 100px;
+  transition-duration: 5ms;
 }
 
 
