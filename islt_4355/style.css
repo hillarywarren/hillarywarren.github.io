@@ -123,6 +123,7 @@ label {
 }
 .picbig{
   position:absolute;
+  height: 0px;
   width: 0px;
   -webkit-transition:width 0.3s linear 0s;
   transition: width 0.3s linear 0s; 
