@@ -12,6 +12,44 @@ nav{
   margin: 5px;
   padding: 10px 10px 10px 10px;
 }
+
+form {
+  width: 50%;
+  padding: 20px;
+  background-color: lightgray;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border: #000;
+  border-style: dotted;
+  padding: 5px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border: #000;
+  border-style: dotted;
+}
+
+th {
+  background-color: #f2f2f2;
+  border: #000;
+  border-style: dotted;
+}
+
+/* Apply alternate colors to data rows */
+tr:nth-child(even) {
+  background-color: #cd8ddf;
+}
+
+tr:nth-child(odd) {
+  background-color: #8c5df0;
+}
+
 h1 {
     color: #BA7BF0;
     font-family: lobster;
