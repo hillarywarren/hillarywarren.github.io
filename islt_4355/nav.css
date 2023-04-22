@@ -30,6 +30,7 @@ nav a {
 
 nav a:hover {
   background-color: #E6D045;
+  position: relative;
 }
 nav ul {
   float: right;
@@ -37,7 +38,7 @@ nav ul {
 }
 
 nav ul li {
-  float: center;
+  float: right;
   list-style: none;
   position: relative;
 }
@@ -47,7 +48,7 @@ nav ul li ul {
   list-style: none;
   position: absolute;
   background-color: white;
-  background-size: 1px;
+  background-size: cover;
   padding:10px;
   border-radius: 0px 0px 4px 4px;
 }
