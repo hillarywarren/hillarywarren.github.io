@@ -171,7 +171,6 @@ label {
   position:absolute;
   height: 0px;
   width: 0px;
-  -webkit-transition:width 0.3s linear 0s;
   transition: width 0.3s linear 0s; 
   z-index: 50;
 }
@@ -190,7 +189,7 @@ p {
   font-size: 1.25rem;
 }
 img {
-  resize: 25px;
+  size: 5px;
 }
   
 } 
@@ -208,7 +207,7 @@ h1 {
   font-size: 1.25rem;
 }
 img {
-  resize: 25px;
+  size: 5px;
 }
 }
 
