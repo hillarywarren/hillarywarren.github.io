@@ -103,7 +103,6 @@ h2 {
   padding: 10px 10px 10px 10px;
   text-decoration: none;
   position: relative;
-  font-display:initial;
   display: inline-block;
 }
 
@@ -115,14 +114,12 @@ section {
   padding: 10px 10px 10px 10px;
   font-size:x-large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-display:unset;
   position: relative;
 }
 
 body{
   background-image: url(images/pencils.jpg);
   padding-bottom: 100px;
-  background-repeat: none;
   background-size: cover;
 
 }
@@ -193,7 +190,7 @@ p {
   font-size: 1.25rem;
 }
 img {
-  size: 25px;
+  resize: 25px;
 }
   
 } 
@@ -205,13 +202,13 @@ p {
   line-height:1.5;
 }
 nav {
-  font-size: 15px;
+  font-size: 5px;
 }
 h1 {
   font-size: 1.25rem;
 }
 img {
-  size: 25px;
+  resize: 25px;
 }
 }
 
@@ -220,6 +217,7 @@ img {
   .responsive{
     width:100%;
     height:auto;
+    font-size: small;
   }
   
   label {
@@ -230,17 +228,19 @@ img {
       display: none;
       text-align: center;
       width: 100%;
+      font-size: small;
   }
   .menu a {
       display: block;
       border-bottom: 3px solid #6d6de0;
       margin: 0
+      
   }
   #toggle:checked + .menu {
       display:block;
   }
   img {
-    flex-shrink: 10px;
+    flex-shrink:initial;
   }
 
 }

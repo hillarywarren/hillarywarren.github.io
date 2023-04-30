@@ -34,7 +34,7 @@ nav a:hover {
 }
 nav ul {
   float: right;
-  padding: auto;
+  padding: 3px;
 }
 
 nav ul li {
